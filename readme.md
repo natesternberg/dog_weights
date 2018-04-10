@@ -4,7 +4,7 @@ There's a stereotype of New Yorkers having tiny dogs, a consequence of their tin
 
 Well, it turns out New York City publishes their [dog registration records](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp), so this hunch can be tested empirically.  Since the records specify the pet's zip code, you can merge those records with a list of average [dog weights by weight and gender](http://modernpuppies.com/breedweightchart.aspx).  From there, you can find [NYC shape files by zip code](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u), making it easy to build a choropleth map of dog weights.
 
-![](/images/map.png)
+![](images/map.png)
 
 The results didn't turn out quite like I expected. Although the leafy, detached-house regions, like Staten Island, or Breezy Point (the purple western tip of the Rockaway Peninsula), do in fact top the dog-weight charts, the dogs in, for example, the Upper East Side, aren't as tiny as I pictured: 29.3 pounds on average: more Corgi than Yorkie.  This actually puts the Upper East Side in the 64th percentile for NYC dog weight.
 
