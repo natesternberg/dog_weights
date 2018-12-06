@@ -2,7 +2,7 @@
 
 There's a stereotype of New Yorkers having tiny dogs, a consequence of their tiny apartments.  I specifically think of dog walkers in dense neighborhoods bordering Central Park, who seem to have a disproportionate number of poodles, shih tzus, spaniels and various terriers.  While this  _feels_ true, it could be just confirmation bias on my part.
 
-Well, it turns out New York City publishes their [dog registration records](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp), so this hunch can be tested empirically.  Since the records specify the pet's zip code, you can merge those records with a list of average [dog weights by weight and gender](http://modernpuppies.com/breedweightchart.aspx).  From there, you can find [NYC shape files by zip code](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u), making it easy to build a choropleth map of dog weights.
+Well, it turns out New York City publishes their [dog registration records](https://data.cityofnewyork.us/Health/NYC-Dog-Licensing-Dataset/nu7n-tubp), so this hunch can be tested empirically.  Since the records specify the pet's zip code, you can merge those records with a list of average [dog weights by breeds and gender](http://modernpuppies.com/breedweightchart.aspx).  From there, you can find [NYC shape files by zip code](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u), making it easy to build a choropleth map of dog weights.
 
 ![](https://raw.githubusercontent.com/natesternberg/dog_weights/master/images/map.PNG)
 
